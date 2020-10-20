@@ -5,12 +5,15 @@ BOARD_ROWS = 3
 BOARD_COLS = 3
 BOARD_SIZE = BOARD_ROWS * BOARD_COLS
 
-class State:
-    return None
+# Create a State class
 
-class Judger:
-    return None
+    """
+    The board is represented by an n * n array,
+    1 represents a chessman of the player who moves first, 
+    -1 represents a chessman of another player
+    0 represents an empty position
+    """
 
-# Build an AI player
-class Player:
-    return None
+    # Check whether a player has won the game, or it's a tie
+
+    
